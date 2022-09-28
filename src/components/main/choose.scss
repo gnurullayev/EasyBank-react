@@ -1,0 +1,130 @@
+.choose{
+    padding: 192px 0 94px 0;
+    min-height: 676px;
+    background-color: #f4f5f7;
+}
+
+.choose__titel{
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 635px;
+    font-size: 40px;
+    line-height: 64px; 
+    letter-spacing: -0.714286px;
+    color: #2d314d;
+}
+
+.choose__description{
+    margin-bottom: 72px;
+    width: 100%;
+    max-width: 635px;
+}
+
+.choose__lists{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.choose__item{
+    margin-bottom: 32px;
+    width: 255px;
+}
+
+.choose-img{
+    margin-bottom: 40px;
+    width: 72px;
+    height: 72px; 
+}
+
+.choose__item-titel{
+    margin-bottom: 26px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+}
+
+.choose__item-desc{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+}
+
+@media (max-width:1200px){
+    .choose{
+        top: 0px;
+    }
+    .choose__titel{
+        margin: 0 auto;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    
+    .choose__description{
+        margin: 0 auto;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px){
+    .choose{
+        padding: 64px 0 64px 0;
+        min-height: 676px;
+        top: 0;
+    }
+    
+    .choose__titel{
+        margin-bottom: 14px;
+        max-width: 327px;
+        font-size: 32px;
+        line-height: 38px; 
+        letter-spacing: -0.6px;
+    }
+    
+    .choose__description{
+        margin-bottom: 72px;
+        width: 100%;
+        max-width: 635px;
+    }
+    
+    .choose__lists{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .choose__item{
+        margin-bottom: 32px;
+        width: 255px;
+    }
+
+    .choose-img{
+        margin-bottom: 24px;
+        width: 72px;
+        height: 72px; 
+    }
+    
+    .choose__item-titel{
+        margin-bottom: 16px;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.3px;
+
+    }
+    
+    .choose__item-desc{
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.23px;
+    }
+}
+
+@media (max-width:557px){
+    .choose__lists{
+        text-align: center;
+    }
+}

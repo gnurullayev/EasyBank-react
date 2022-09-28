@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Berkshire+Swash&family=Public+Sans:wght@100;500&family=Smooch&display=swap');
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #9597A5;
+}
+
+.main{
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  max-width: 1158px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
